@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .dbb {
+            padding-top: 5%;
+        }
+
+        .dbs {
+            padding-left: 3%;
+            padding-top: 4%;
+            flex: 1%;
+            text-align: left;
+        }
+
+        .dbs li {
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+        }
+
+        .dbs li::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background-color: #f44366;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+
+        .dbs li:hover::after {
+            width: 100%;
+        }
+
+        .dbs li a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="db">
+        <h1>Welcome</h1>
+
+    </div>
+    <div class="dbs">
+        <li><a href="" target="_blank">Admission Slip</a><!--Admission Slip--></li>
+    </div>
+    <div class="dbs">
+        <li><a href="" target="_blank">Attendance Sheet</a></li>
+    </div>
+    <div class="dbs">
+        <li><a href="" target="_blank">Marksheet</a></li>
+    </div>
+    <div class="dbs">
+        <li><a href="" target="_blank">ID Card</a></li>
+    </div>
+    <div class="dbb">
+        <h3>Notice</h3>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+alert("Hello, This website Develop By Akash. Not a responsive website, Only Demo");
